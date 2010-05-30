@@ -1,0 +1,7 @@
+Quick script hacked together in node.js to generate an dummy js file for autocompletion in any IDE that supports it.
+
+Usage:
+wget http://developer.appcelerator.com/apidoc/mobile/1.3/api.json
+node tiDocs.js > Ti.js
+
+Ti.js now contains dummy objects for all Titanium methods and properties.
